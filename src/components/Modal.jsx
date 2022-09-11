@@ -2,7 +2,6 @@ import { Menu } from '@headlessui/react'
 import { useState } from 'react'
 
 export const TryHardModal = (props) => {
-    console.log(props)
     return (
         <TryHardModal />
     )
@@ -116,7 +115,6 @@ export const EditTaskModal = (props) => {
 }
 
 export const TryHard = (props) => {
-    console.log(props.toggle)
     let modalState = props.toggle
     let action = props.action
     return (
